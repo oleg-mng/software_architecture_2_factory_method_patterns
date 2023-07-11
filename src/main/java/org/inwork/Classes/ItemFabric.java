@@ -5,5 +5,5 @@ public abstract class ItemFabric {
         iGameItem gameItem = createItem();
         gameItem.open();
     }
-    public abstract GoldReward createItem();
+    public abstract iGameItem createItem();
 }
